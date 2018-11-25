@@ -1,0 +1,44 @@
+Ryan Erickson
+00783840
+HW11
+
+1.
+public static FinalizeList {
+	public void set(int index E element){
+		E(index) = value;
+		if Final{
+			isFinal = true;
+			} 
+		}
+	pulic void push(E element){
+		FinalizeList.add(element);
+		if Final{isFinal = true;}
+	public void clear(){
+		For(element e : FinalizeList){
+			e.pop();}
+		if Final{isFinal = truel}
+		}
+	public FinalizeList(){
+		boolean isFinal = False;}
+	
+}
+2.
+public int setI(int index){
+	return index;
+}
+public int setE(Element e){
+	return e;
+}
+
+
+3.
+void entryEvent(float t){
+	Simulation.Event e = new Simulation.Event(){
+		void trigger(){
+			lightChanges.this.exitEvent(time)
+		}
+	}
+	e.time = ++travelTime;
+	Simulator.schedule(e);
+}
+

@@ -1,0 +1,23 @@
+Ryan Erickson
+00783840
+
+HW10
+1.
+a. 8 source files
+b. because everything is in separable files. it needs to be elaborated more for readability
+
+2.simulaiton output must contain
+	- static method setoutput(sc)
+			-scans time interval from sc (#units between outputs)
+			-scan time simulation units (sc)
+			-schedule an event at zero
+	- void fire (float time)
+		-schedules firing
+	-void kick(float time, float strength)
+		-schedules kick
+	- int getCount()
+		-gets and resets the count
+
+3. errors.java
+error reporting methods that essentially make sure the code is not within the parameters given. if the system comes across an illegal argument that will end the program, method
+{@ code fatal} is used to end the program. If the input does not ,eet tje requirement, a call to {@code warning} is managed

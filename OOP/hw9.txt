@@ -1,0 +1,17 @@
+Ryan Erickson
+00783840
+HW9
+
+1.
+
+2.
+a. class intersection
+b. addIntersections{
+		incoming.a)
+}
+
+3.
+a. if (n & -n) == n) // then n is a power of 2
+b. it rejects values that would result in an uneven distribution by determining if n is a power by 2.
+it is solving the case that 2 ^31 is not divisable by n.
+
